@@ -1,0 +1,23 @@
+body {
+    background-image: url("images/concrete_seamless.png");
+}
+
+a {
+    color: #777777;
+}
+
+span {
+    margin-top: 0;
+    background-color: #4aaaa5;
+    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar {
+    border-bottom: 1px solid #777777;
+}
