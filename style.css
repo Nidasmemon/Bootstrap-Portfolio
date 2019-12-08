@@ -66,6 +66,31 @@ button[type="submit"] {
     border: none;
 }
 
+.pic {
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    position: relative;
+}
+
+.pic img {
+    opacity: .8;
+}
+
+.pic h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 5px;
+    width: 91%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
 #footer {
     bottom: 0;
     width: 100%;
