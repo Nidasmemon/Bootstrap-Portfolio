@@ -1,3 +1,5 @@
+/* general */
+
 body {
     background-image: url("images/concrete_seamless.png");
 }
@@ -43,6 +45,21 @@ h3 {
     border-bottom: 2px solid #cccccc;
 }
 
+#footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    font-size: 12px;
+    color: #ffffff63;
+    text-align: center;
+    background-color: #666666;
+    padding: 10px;
+    border-top: 8px solid #4aaaa5;
+}
+
+/* about page */
+
 img.cat {
     width: 200px;
     margin: 10px;
@@ -52,6 +69,8 @@ p {
     color: #777777;
     line-height: 30px;
 }
+
+/* contact page */
 
 form {
     color: #777777;
@@ -65,6 +84,8 @@ button[type="submit"] {
     color: #ffffff;
     border: none;
 }
+
+/* portfolio page */
 
 .pic {
     margin: 5px;
@@ -91,15 +112,4 @@ button[type="submit"] {
     margin-bottom: 0;
     font-weight: 300;
 }
-#footer {
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    height: 50px;
-    font-size: 12px;
-    color: #ffffff63;
-    text-align: center;
-    background-color: #666666;
-    padding: 10px;
-    border-top: 8px solid #4aaaa5;
-}
+
